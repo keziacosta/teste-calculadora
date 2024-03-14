@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    background-color: bisque;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: #5e2f97;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.box{
+    background-color: #5e2f97;
+    padding: 20px;   
+    border-radius: 5px;
+    width: 220px;
+}
+
+#res .visor{
+    height: 40px;
+    margin: 0 auto;
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.btns{
+    display: flex;
+}
+
+.btn{
+    padding: 12px;
+    flex: 1;
+    margin: 2px;
+    border: none;
+    cursor: pointer;
+}
+
+.operador{
+    background: #b49dcf;
+}

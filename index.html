@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <section>
+        <h1>Calculadora</h1>
+        <div class="content">
+            <div class="box">
+                <div id="res">
+                    <div class="visor"></div>
+                </div>
+                <div id="numeros">
+                    <div class="btns">
+                        <button class="btn operador" onclick="deletaTudo()">CE</button>
+                        <button class="btn operador" onclick="digitar('/')">/</button>
+                        <button class="btn operador" onclick="deletaUltimoDig()"><i class='bx bxs-tag-x'></i></button>
+                    </div>
+                    <div class="btns">
+                        <button class="btn" onclick="digitar('7')">7</button>
+                        <button class="btn" onclick="digitar('8')">8</button>
+                        <button class="btn" onclick="digitar('9')">9</button>
+                        <button class="btn operador" onclick="digitar('*')">*</button>
+                    </div>
+                    <div class="btns">
+                        <button class="btn" onclick="digitar('4')">4</button>
+                        <button class="btn" onclick="digitar('5')">5</button>
+                        <button class="btn" onclick="digitar('6')">6</button>
+                        <button class="btn operador" onclick="digitar('-')">-</button>
+                    </div>
+                    <div class="btns">
+                        <button class="btn" onclick="digitar('1')">1</button>
+                        <button class="btn" onclick="digitar('2')">2</button>
+                        <button class="btn" onclick="digitar('3')">3</button>
+                        <button class="btn operador" onclick="digitar('+')">+</button>
+                    </div>
+                    <div class="btns">
+                        <button class="btn" onclick="digitar('.')">.</button>
+                        <button class="btn" onclick="digitar('0')">0</button>
+                        <button class="btn resultado operador" onclick="resultado()">=</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <script src="java.js"></script>
+</body>
+</html>
